@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🧩🦁</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom playful font if available, falling back to sans-serif */
+      body {
+        font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+      }
+      .emoji-bounce {
+        animation: bounce 2s infinite;
+      }
+      @keyframes bounce {
+        0%, 100% { transform: translateY(-10%); }
+        50% { transform: translateY(0); }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-100 text-slate-900 select-none overflow-hidden">
+    <div id="root"></div>
+  </body>
+</html>
